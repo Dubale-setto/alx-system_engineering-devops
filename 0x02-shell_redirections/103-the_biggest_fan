@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n +2 | cut
+awk '{print $1}' input.log | sort | uniq -c | sort -rn | head -n 11
