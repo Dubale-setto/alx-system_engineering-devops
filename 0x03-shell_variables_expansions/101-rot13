@@ -1,7 +1,2 @@
 #!/bin/bash
-echo "Enter text to encode/decode:"
-read text
-encoded=$(echo $text | tr 'A-Za-z' 'N-ZA-Mn-za-m')
-decoded=$(echo $encoded | tr 'N-ZA-Mn-za-m' 'A-Za-z')
-echo "Encoded: $encoded"
-echo "Decoded: $decoded"
+echo "Uryyb Jbeyq" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
